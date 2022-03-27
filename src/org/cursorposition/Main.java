@@ -8,11 +8,11 @@ public class Main{
 	
 	
 	
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		new Main().start();
 	}
 
-	public void start() throws InterruptedException {
+	public void start() {
 		Dimension dimension = new Dimension(200,70);
 		Window window = new Window(dimension, this.location());
 		while(true) {
